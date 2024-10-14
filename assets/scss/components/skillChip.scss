@@ -1,0 +1,12 @@
+.skill-chip {
+  width: fit-content;
+  background-color: rgba(var(--chip-bg-color));
+  padding: .8rem 2rem;
+  border-radius: 1.8rem;
+  border: 2px solid rgba(var(--chip-bg-color), 0.2);
+
+  &__text {
+    color: white;
+    font-weight: bold;
+  }
+}

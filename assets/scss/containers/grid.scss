@@ -1,0 +1,13 @@
+.main__grid {
+  display: grid;
+  height: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(13, var(--height));
+  padding: 20px;
+  gap: 1rem;
+}
+
+.main__grid--item {
+  grid-column: var(--Cstart) / var(--Cend);
+  grid-row: var(--Rstart) / var(--Rend);;
+}

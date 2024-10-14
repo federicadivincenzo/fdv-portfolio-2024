@@ -1,0 +1,14 @@
+.button {
+  width: 42px;
+  height: auto;
+  aspect-ratio: 1/1;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &:hover {
+    background-blend-mode: unset;
+  }
+}

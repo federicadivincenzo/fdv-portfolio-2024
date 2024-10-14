@@ -1,0 +1,28 @@
+.main{
+
+
+  &__hero {
+    padding: 20px;
+
+    &__header {
+      font-size: 488px;
+      font-weight: bold;
+    }
+
+    &__reg {
+      font-size: 88px;
+    }
+
+    &__incipit {
+      width: 30%;
+      font-size: 24px;
+    }
+    &__italic {
+      font-family: "Playfair Display", serif;
+      font-style: italic;
+    }
+  }
+
+
+}
+

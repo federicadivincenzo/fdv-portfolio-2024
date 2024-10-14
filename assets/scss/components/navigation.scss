@@ -1,0 +1,28 @@
+.navigation {
+  position: fixed;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: flex;
+  gap: 12px;
+  padding: .4rem .4rem;
+  width: fit-content;
+  border-radius: 25px;
+  z-index: 50;
+
+  &__item {
+    color: $link-color;
+    padding: .6rem 1rem;
+    border-radius: 25px;
+    transition: background-color 0.25s;
+
+    &:focus {
+      background-color: rgba(172, 170, 170, 0.44);
+    }
+
+    &:hover {
+      background-color: rgba(172, 170, 170, 0.84);
+    }
+  }
+}

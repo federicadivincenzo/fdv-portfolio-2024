@@ -1,0 +1,54 @@
+@import "components/navigation";
+@import "components/card";
+@import "components/button";
+@import "components/hero";
+@import "components/skillChip";
+@import "components/chatbot";
+@import "containers/grid";
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+  font-family: 'Chillax-Light', sans-serif ;
+  overflow-x: hidden;
+  background-color: #e8e8e8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $link-color;
+}
+
+a:hover {
+  color: $link-hover-color;
+}
+
+a:focus {
+  color: $link-selected-color;
+}
+
+
+
+.glass-background {
+  background: rgba(226, 220, 220, 0.28);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.2px);
+  -webkit-backdrop-filter: blur(4.2px);
+}

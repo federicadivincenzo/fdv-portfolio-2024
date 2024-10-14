@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.13.0",
+    "vue": "latest",
+    "vue3-carousel-nuxt": "^1.1.2",
+    "vue3-grid-layout-next": "^1.0.7"
+  },
+  "devDependencies": {
+    "sass": "^1.77.8"
+  }
+}
